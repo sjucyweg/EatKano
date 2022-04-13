@@ -469,7 +469,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         if (cps <= 8) return 'up味道怎么样';
         if (cps <= 10)  return 'up味道不错吧';
         if (cps <= 15) return '不许再吃up了！！';
-        return '人？';
+        return '？？';
     }
 
     function toStr(obj) {
